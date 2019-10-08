@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657916, g: 0.49641317, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657922, g: 0.4964134, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -753,6 +753,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2558408959293265112, guid: 83427731ea083fa4890153a8a463698d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83427731ea083fa4890153a8a463698d, type: 3}
 --- !u!1001 &2204154442695663734
@@ -820,6 +825,11 @@ PrefabInstance:
     - target: {fileID: 2204154443806905605, guid: 6330dabc94eacf24a9b8ca48f1c8c6a6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 102572658226674135, guid: 6330dabc94eacf24a9b8ca48f1c8c6a6,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -897,8 +907,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -8827452484773887120, guid: 2c6647a7bdbcd2b45b71a918dd044f8f, type: 3}
+    - target: {fileID: 2468224031925568612, guid: 2c6647a7bdbcd2b45b71a918dd044f8f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c6647a7bdbcd2b45b71a918dd044f8f, type: 3}
 --- !u!1 &3300105618440819816 stripped
 GameObject:
@@ -971,6 +985,11 @@ PrefabInstance:
     - target: {fileID: 7130532840159818628, guid: b01c25a54ec792f4b98d8ac582dfd6bd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3298441715591158399, guid: b01c25a54ec792f4b98d8ac582dfd6bd,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

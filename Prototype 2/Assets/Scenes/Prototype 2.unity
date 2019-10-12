@@ -537,7 +537,6 @@ MonoBehaviour:
   - {fileID: 7130532840937052261}
   - {fileID: 2204154442695663735}
   - {fileID: 3300105618440819816}
-  animalIndex: 0
 --- !u!4 &1158010370
 Transform:
   m_ObjectHideFlags: 0

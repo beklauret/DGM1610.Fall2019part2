@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravityModifier;
     public bool isOnGround = true;
-    public bool gameOver;
+    public bool gameOver = false;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         }
         else if(collision.gameObject.CompareTag("Obsticle")){
             Debug.Log("Game Over");
+            gameOver = true;
 
         }
     }

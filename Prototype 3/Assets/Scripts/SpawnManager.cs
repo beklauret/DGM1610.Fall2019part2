@@ -14,7 +14,6 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnObsticle", startDelay, repeatRate);
-        
     }
 
     // Update is called once per frame

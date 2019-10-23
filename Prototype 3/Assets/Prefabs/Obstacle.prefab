@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obsticlePrefab: {fileID: 2453379935636148907}
+  spawnPos: {x: 15, y: 0, z: -5}
 --- !u!114 &4536206022302773739
 MonoBehaviour:
   m_ObjectHideFlags: 0

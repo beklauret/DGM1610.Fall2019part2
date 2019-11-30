@@ -24,6 +24,7 @@ public class DifficultyButtonX : MonoBehaviour
     {
         Debug.Log(button.gameObject.name + " was clicked");
         gameManagerX.StartGame();
+       
     }
 
 
